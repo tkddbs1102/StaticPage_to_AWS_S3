@@ -23,4 +23,4 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync ./ s3://bucket-cat-dog-20260213-1111 --delete --exclude ".git/*" --exclude ".github/*"
+        aws s3 sync ./ s3://mybucketcopy123123123 --delete --exclude ".git/*" --exclude ".github/*"
